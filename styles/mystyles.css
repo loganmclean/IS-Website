@@ -1,0 +1,270 @@
+/* COLOUR */
+
+body {
+    background-color: #947a5c;
+}
+
+.photo-background {
+    background-image: url("../images/foggyforest.jpeg")
+}
+
+.photo-background2 {
+    background-image: url("../images/wood.jpeg")
+}
+
+.armygreen {
+    background-color: #54643a;
+}
+
+.tester {
+    background-color: blueviolet;
+}
+
+.billboard-color {
+    background-color: #b3a89e;
+}
+
+.resume-color {
+    background-color: #c5b9ae;
+}
+
+/* TEXT */
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.resume-basic {
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+}
+
+.head {
+    text-align: center;
+    color:black;
+}
+
+.mid-head {
+    font-size: 20px;
+    color: black;
+    border-bottom: 2px solid black;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+}
+
+.small-head {
+    font-size: 18px;
+    color: black;
+}
+
+.small-head-right {
+    font-size: 17px;
+    color: black;
+    padding-right: 10px;
+    float: right;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.unbold {
+    font-weight:lighter;
+}
+
+.top-bar-text {
+    color:white;
+}
+
+.dropdown-text {
+    color: #b3a89e;
+}
+
+
+.top-bar-color {
+    background-color: #202b27;
+}
+
+.top-header {
+    color: #b3a89e;
+}
+
+/* LAYOUT */
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.image-row {
+    display:flex;
+}
+  
+.image-column {
+    flex: 50%;
+}
+
+.image-column-left {
+    flex: 52.1%;
+}
+
+.image-column-right {
+    flex: 47.9%;
+}
+
+.image-column-left2 {
+    flex: 47.65;
+}
+
+.image-column-right2 {
+    flex: 52.35%;
+}
+
+.billboard-space {
+    top: 97px;
+    bottom: 90px;
+}
+
+.video-space {
+    bottom: 17px;
+}
+
+.bottom-home {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+.bottom-space {
+    bottom: 20px;
+}
+
+.intro-image-left {
+    max-width: 97%;
+    height: auto;
+    float: left;
+}
+
+.intro-image-right {
+    max-width: 97%;
+    height: auto;
+    float: right;
+}
+
+.top-basic {
+    top: 60px;
+}
+
+.tableau-intro {
+    position: absolute;
+    height: 200px;
+    right: 200px;
+    left: 200px;
+}
+
+/* CUSTOM MAIN PAGE*/
+
+.intro {
+    position: relative;
+  }
+  @media (min-width: 992px) {
+    .intro .intro-img { /* Number 1 */
+      width: 48%;
+      float: right;
+    }
+    .intro .intro-text {
+        left: 0;
+        width: 60%;
+        margin-top: 7rem;
+        margin-left: 75px;
+        position: absolute;
+    }
+    .intro .intro-text .intro-button {
+        width: 100%;
+        left: 0;
+        position: absolute;
+        bottom: -2rem;
+    }
+    .intro .intro-img2 { /* Number 2 */
+        width: 48%;
+        float: left;
+    }
+    .intro .intro-text2 {
+        right: 0;
+        width: 60%;
+        margin-top: 7rem;
+        margin-right: 75px;
+        position: absolute;
+    }
+    .intro .intro-text2 .intro-button2 {
+        width: 100%;
+        left: 0;
+        position: absolute;
+        bottom: -2rem;
+    }
+      .intro .intro-img3 { /* Number 3 */
+        width: 54%;
+        height: 600px !important;
+        width: 695px;
+        float: right !important;
+    }
+    .intro .intro-text3 {
+        left: 0;
+        width: 60%;
+        margin-top: 4rem;
+        margin-right: 75px;
+        position: absolute;
+    }
+    .intro .intro-text3 .intro-button3 {
+        width: 100%;
+        left: 0;
+        position: absolute;
+        bottom: -2rem;
+    }
+  }
+  @media (min-width: 1200px) {
+    .intro .intro-text {
+      width: 45%;
+    }
+    .intro .intro-text2 {
+        width: 45%;
+    }
+    .intro .intro-text3 {
+        width: 45%;
+    }
+  }
+
+  .section-heading2 {
+    text-transform: uppercase;
+  }
+  .section-heading2 .section-heading-upper2 {
+    display: block;
+    font-size: 14px;
+    font-weight: 800;
+  }
+  .section-heading2 .section-heading-lower2 {
+    display: block;
+    font-size: 40px;
+    font-weight: 100;
+  }
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+}
+.iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

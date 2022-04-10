@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<!-- Logan McLean — 04/06/2022 -->
+
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Logan McLean | Home</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="styles/styles.css" rel="stylesheet" />
+        <link href="styles/mystyles.css" rel="stylesheet" />
+    </head>
+    <body >
+        <header>
+            <h1 class="site-heading text-center text-faded d-none d-lg-block">
+                <span class="site-heading-upper mb-3 top-header">The Life Of</span>
+                <span class="site-heading-lower top-bar-text">Logan McLean</span>
+            </h1>
+        </header>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand fw-bold d-lg-none" href="index.html"><span class="top-bar-text">LOGAN MCLEAN &nbsp;</span><span class="dropdown-text">| &nbsp;Home</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" style="color: white" href="index.html">Home</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="html/aboutme.html">About Me</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="html/resume.html">Resume</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="html/tableau.html">Tableau</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="page-section clearfix"> <!-- Number 1 -->
+            <div class="container">
+                <div class="intro">
+                    <script>
+                        function diffImage1(img){
+                            if(img.src.match(/basketball/)){
+                                console.log('bachelor');
+                                img.src = "images/bachelor.jpeg";
+                            }
+                            else if(img.src.match(/bachelor/)){
+                                console.log('airport');
+                                img.src = "images/airport.jpeg";
+                            }
+                            else if(img.src.match(/airport/)){
+                                console.log('christmas');
+                                img.src = "images/christmas.jpeg";
+                            }
+                            else if(img.src.match(/christmas/)){
+                                console.log('girafe');
+                                img.src = "images/girafe.jpg";
+                            }
+                            else if(img.src.match(/girafe/)){
+                                console.log('gym');
+                                img.src = "images/gym.jpeg";
+                            }
+                            else {
+                                console.log('basketball');
+                                img.src = "images/basketball.JPG";
+                            }
+                        }
+                    </script>
+                    <img onclick=diffImage1(this) class="intro-img img-fluid mb-3 mb-lg-0 rounded" alt="Photo of airport/bachelor/basketball/christmas/girafe/gym" src="images/basketball.JPG">
+                    <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+                        <h2 class="section-heading mb-4">
+                            <span class="section-heading-upper">Click on the photos</span>
+                            <span class="section-heading-lower">To see more!</span>
+                        </h2>
+                        <p class="mb-3">Seriously! Go ahead, <span class="bold">TAP on ANY photo</span> to see more.<br>I feel like we could be friends now; If you want make it official, tap the button below!</p>
+                        <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl" target = "_blank" href="https://www.facebook.com/loganmclean99/"><span style="color: white">Friend Me!</span></a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section clearfix"> <!-- Number 2 -->
+            <div class="container">
+                <div class="intro">
+                    <script>
+                        function diffImage2(img){
+                            if(img.src.match(/wedding/)){
+                                console.log('longhair');
+                                img.src = "images/longhair.jpeg";
+                            }
+                            else if(img.src.match(/longhair/)){
+                                console.log('roadtrip');
+                                img.src = "images/roadtrip.jpeg";
+                            }
+                            else if(img.src.match(/roadtrip/)){
+                                console.log('shooting');
+                                img.src = "images/shooting.jpeg";
+                            }
+                            else if(img.src.match(/shooting/)){
+                                console.log('snowman');
+                                img.src = "images/snowman.jpeg";
+                            }
+                            else if(img.src.match(/snowman/)){
+                                console.log('snowmobile');
+                                img.src = "images/snowmobile.jpeg";
+                            }
+                            else {
+                                console.log('wedding');
+                                img.src = "images/wedding.jpeg";
+                            }
+                        }
+                    </script>
+                    <img onclick=diffImage2(this) class="intro-img2 img-fluid mb-3 mb-lg-0 rounded" alt="Photo of airport/bachelor/basketball/christmas/girafe/gym" src="images/wedding.jpeg">
+                    <div class="intro-text2 left-0 text-center bg-faded p-5 rounded">
+                        <h2 class="section-heading mb-4">
+                            <span class="section-heading-upper">Keep going</span>
+                            <span class="section-heading-lower">Here's more</span>
+                        </h2>
+                        <p class="mb-3">I know these photos are making me look terribly unprofessional, but this is supposed to be fun! If you want to see the "professional" me, go to my resume page. You can also get to my LinkedIn profile by clicking below!</p>
+                        <div class="intro-button2 mx-auto"><a class="btn btn-primary btn-xl" target = "_blank" href="https://www.linkedin.com/in/loganmclean99/"><span style="color: white">Connect Here!</span></a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section clearfix"> <!-- Number 3 -->
+            <div class="container">
+                <div class="intro">
+                    <div class="intro-img3 img-fluid mb-3 mb-lg-0 rounded">
+                        <div class="iframe-container">
+                            <iframe  class="intro-img3 img-fluid mb-3 mb-lg-0 rounded" src="https://www.youtube.com/embed/6u57YvHUVBA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
+                        </div>
+                    </div>
+                    <div class="intro-text3 left-0 text-center bg-faded p-4 rounded">
+                    <h2 class="section-heading2 mb-4">
+                        <span class="section-heading-upper2">Completely unnecessary video:</span>
+                        <p> </p>
+                        <span class="section-heading-lower2">Me and dallin on the beach</span>
+                    </h2>
+                    <p class="mb-3">This video, although boring, is one of the most amazing videos you'll ever see. <span class="bold">Why?</span> because there is sand, water, love, muscles, and hair blowing in the wind. You're welcome.</p>                     </div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section cta armygreen bottom-home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-9 mx-auto" >
+                        <div class="cta-inner bg-faded text-center rounded billboard-color">
+                            <h2 class="section-heading mb-4">
+                                <span class="section-heading-upper">Look...</span>
+                                <span class="section-heading-lower">Just Enjoy</span>
+                            </h2>
+                            <p class="mb-0">I know you don't reaaaaally want to be on here, but I'll make it worth your time. This site is filled with information about me! You're gonna enjoy it, trust me.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer text-faded text-center py-5">
+            <div class="container"><p class="m-0 small">Copyright &copy; Logan McLean 2022</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
+
+<!-- <iframe class="intro-img3 img-fluid mb-3 mb-lg-0 rounded" alt="Video of me walking accross the beach with my brother" src="https://www.youtube.com/embed/6u57YvHUVBA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
